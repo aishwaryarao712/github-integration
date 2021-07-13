@@ -1,0 +1,11 @@
+table:
+  name: family
+  schema: public
+select_permissions:
+- permission:
+    columns:
+    - id
+    - name
+    - relationship
+    filter: {}
+  role: user
