@@ -2,7 +2,15 @@
   kind: postgres
   configuration:
     connection_info:
-      database_url: postgres://daoqpxkuaqgvnb:7d54a8a20ec466caaa6735763c9f1f5c763456eb20506352decec09c6ad01205@ec2-35-168-145-180.compute-1.amazonaws.com:5432/d2n6f559ad0get
+      database_url: postgres://lgwixstdsnbjlu:42d6faf151fa1ce32cd73f56ba8999428042163d07b169d8b14ce3b70266f2f8@ec2-52-71-161-140.compute-1.amazonaws.com:5432/demcgb7fckaug5
       isolation_level: read-committed
       use_prepared_statements: false
   tables: "!include default/tables/tables.yaml"
+- name: default_2
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: postgres://hjauiskhqtfffz:ad1c785d0eedfb40946a2ad369989d7f068a663f01748daad4566fd747d0f46e@ec2-52-23-190-126.compute-1.amazonaws.com:5432/d6kghcta5hv2nk
+      isolation_level: read-committed
+      use_prepared_statements: false
+  tables: "!include default_2/tables/tables.yaml"
